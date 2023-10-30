@@ -124,7 +124,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const message = document.querySelector('.message').value;
         const emailBody = message + '___Email sent from: ' + email;
 
-        const companyMail = 'company@gmail.com'
+        const companyMail = 'hasiltd@gmail.com'
 
         // const emailUrl = `https://mail.google.com/mail/u/0/?fs=1&to=${companyMail}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(emailBody)}&tf=cm`
         const mailtoUrl = `mailto:${companyMail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(emailBody)}`;
