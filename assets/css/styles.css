@@ -714,6 +714,7 @@ img {
   background: none;
   z-index: 1;
   color: #cc88b4;
+  border: 1px #eacacb solid;
 }
 .form__label {
   position: absolute;
