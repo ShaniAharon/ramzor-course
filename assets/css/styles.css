@@ -278,6 +278,11 @@ img {
   justify-self: center;
 }
 
+.top-title {
+  text-align: center;
+  font-size: large;
+}
+
 .home__title {
   font-size: var(--biggest-font-size);
   font-weight: var(--font-bold);
@@ -654,6 +659,11 @@ img {
     font-family: system-ui;
     text-shadow: 1px 0px 10px #0000007d;
     /* font-family: 'Courier New', Courier, monospace; */
+  }
+
+  .top-title {
+    text-align: center;
+    font-size: large;
   }
 }
 
