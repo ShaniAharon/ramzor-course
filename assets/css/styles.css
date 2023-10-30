@@ -273,6 +273,10 @@ img {
   row-gap: 0.5rem;
 }
 
+.logo {
+  width: 5rem;
+}
+
 .home__img {
   /* width: 280px; */
   justify-self: center;
@@ -649,6 +653,10 @@ img {
 }
 
 @media screen and (max-width: 500px) {
+  .logo {
+    width: 3.5rem;
+  }
+
   .home__title {
     font-size: medium;
     text-align: center;
